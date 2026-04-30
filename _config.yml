@@ -4,3 +4,4 @@ baseurl: ""
 url: "https://abigail-nc.github.io"
 theme: minima
 remote_theme: jekyll/minima
+permalink: /:title/

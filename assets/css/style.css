@@ -1,57 +1,26 @@
-/* Variables para colores orgánicos */
-:root {
-    --color-papel: #fdfcf0;
-    --color-puntos: #e0e0e0;
-    --color-tinta: #3d3d3d;
-    --color-acento: #7a9e7e; /* Verde musgo */
-}
-
 body {
-    background-color: var(--color-papel);
-    background-image: radial-gradient(var(--color-puntos) 1.5px, transparent 1.5px);
-    background-size: 24px 24px; /* Espaciado de bullet journal */
+    background-color: #fcfaf2;
+    background-image: radial-gradient(#d1d1d1 1px, transparent 1px);
+    background-size: 20px 20px; /* El punteado */
     font-family: 'Courier Prime', monospace;
-    color: var(--color-tinta);
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
+    color: #333;
+    max-width: 700px; /* Para que parezca una hoja de libreta */
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.6;
 }
 
-/* El contenedor que parece una hoja de papel */
-.contenedor-papel {
-    background: white;
-    width: 90%;
-    max-width: 850px;
-    min-height: 80vh;
-    margin: 40px 0;
-    padding: 60px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
-    border: 1px solid #eee;
-    position: relative;
-}
-
-/* Títulos con fuente manuscrita */
-h1, h2, h3, .nav-link {
+h1, h2, h3, a {
     font-family: 'Architects Daughter', cursive;
-    color: var(--color-acento);
+    color: #5a7a5e; /* Verde musgo */
 }
 
-/* Navegación simple */
-.navbar-artesanal {
-    margin-top: 30px;
-    display: flex;
-    gap: 20px;
-}
+nav { margin-bottom: 40px; text-align: center; }
 
-.nav-link {
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-bottom: 2px path; /* Aquí podrías poner un SVG de trazo manual */
-}
-
-.nav-link:hover {
-    color: #5a7a5e;
-    transform: rotate(-2deg); /* Efecto de movimiento manual */
+/* Para que las imágenes en la Galería parezcan fotos pegadas */
+img {
+    max-width: 100%;
+    border: 10px solid white;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    transform: rotate(-1deg);
 }

@@ -1,30 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courier+Prime&display=swap" rel="stylesheet">
-    
+    <meta charset="utf-8">
+    <title>{{ page.title }} | Jardín de Abichuela</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courier+Prime&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <nav class="navbar-artesanal">
-        <a href="{{ '/' | relative_url }}" class="nav-link">Inicio</a>
-        <a href="{{ '/libreta' | relative_url }}" class="nav-link">Libreta</a>
-        <a href="{{ '/galeria' | relative_url }}" class="nav-link">Galería</a>
-        <a href="{{ '/radiocumulus' | relative_url }}" class="nav-link">Radiocumulus</a>
+    <nav>
+        <a href="/">Inicio</a> | 
+        <a href="/libreta">Libreta</a> | 
+        <a href="/galeria">Galería</a> | 
+        <a href="/radiocumulus">Radiocumulus</a>
     </nav>
 
-    <main class="contenedor-papel">
+    <hr> <main>
         {{ content }}
     </main>
-
-    <footer class="footer-jardin">
-        <p>Cultivado con ❤️ en GitHub Pages</p>
-    </footer>
-
 </body>
 </html>
