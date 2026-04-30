@@ -135,3 +135,7 @@ Puedes conocer más leyendo los manuales que Git ofrece de manera gratuita o que
 
 
 * Mijacobs. (s. f.). ¿Qué es Git? - Azure DevOps. Microsoft Learn. Recuperado de https://learn.microsoft.com/es-es/devops/develop/git/what-is-git en 24 de marzo de 2026.
+
+<p style="text-align: right; font-family: 'Architects Daughter'; opacity: 0.6;">
+  30 de abril, 2026
+</p>
