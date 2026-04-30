@@ -2,3 +2,5 @@ title: Jardin de Abichuela
 description: El jardín de un pony de varios trucos.
 baseurl: "" 
 url: "https://abigail-nc.github.io"
+theme: minima
+remote_theme: jekyll/minima
