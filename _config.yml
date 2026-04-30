@@ -5,5 +5,12 @@ url: "https://abigail-nc.github.io"
 theme: minima
 remote_theme: jekyll/minima
 permalink: /:title/
+#remote_theme: []
+theme: null
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
 sass:
   style: compressed
